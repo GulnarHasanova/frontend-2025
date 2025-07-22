@@ -1,14 +1,11 @@
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-
-
-
 .logo {
-  width: 137px;
+  width: 187px;
   height: 32px;
 }
 
@@ -17,7 +14,6 @@ html, body {
   display: flex;
   gap: 22px;
   align-items: center;
-  justify-content: center;
   padding: 0;
   margin: 0;
 }
@@ -32,16 +28,16 @@ html, body {
   text-decoration: none;
   color: #ffffff;
 }
-.navbar li a:hover{
-  color: #FFC800;
+.navbar li a:hover {
+  color: #ffc800;
 }
 
-
 /* Scroll olduqda əlavə olunacaq class */
-.navbar-scrolled{
+.navbar-scrolled {
   background-color: #212529;
   list-style: none;
   display: flex;
+
   /* gap: 10px; */
 
   li {
@@ -56,24 +52,18 @@ html, body {
     }
   }
 }
-
 .nav {
   list-style: none;
   display: flex;
-
-  justify-content: space-between; /* sol və sağ tərəflərə yayır */
+  justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 0 40px;
   width: 100%;
-
-
-  .logo {
-    width: 187.22px;
-    height: 32px;
-  }
-  
-position: fixed;
-
+  position: fixed;
+  /* padding-top: 20px;
+  padding-left:150px ; */
+  padding-right: 200px;
+  padding-top: 20px;
 }
 
 .header-image {
@@ -82,17 +72,60 @@ position: fixed;
   background-position: center center;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-    min-height: 120vh;
-
-
-
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   /* background-size: cover;
   background-position: center; */
   /* height: 100vh; /* və ya məsələn 500px */
   /* width: 100%;  */
-   
+}
 
-  
+.sekil {
+  padding-left: 200px;
+  padding-top: 20px;
+}
 
+.container {
+  color: #ffffff;
+  text-align: center;
+}
+
+.container button {
+  background-color: #ffc800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button a {
+  color: #ffffff;
+  padding: 1.25rem 2.5rem;
+}
+
+.container h1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-size: 42px;
+  font-weight: 350;
+  font-style: italic;
+}
+
+.container p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.button {
+  padding: 1.8rem 3.5rem;
+  background-color: #ffc800;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 5px;
 }
